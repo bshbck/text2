@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+ background: #000000;
+}
+.div-1{
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	float: right;
+	
+	border-radius: 10px;
+	border: 2px solid #FFFFFF; 
+	opacity: 0.2;
+	
+}
+.div-1 a:link{color: #FFFFFF;}
+.div-1 a:visited{color: #FFFFFF;}
+.div-1:hover{
+	box-shadow: 0 0 50px #FFFFFF;
+	opacity: 1;
+}
+.div-2{
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	float:left;
+	border-radius: 10px;
+	border: 2px solid #FFFFFF; 
+	opacity: 0.2;
+	
+}
+.div-2 a:link{color: #FFFFFF;}
+.div-2 a:visited{color: #FFFFFF;}
+.div-2:hover{
+	box-shadow: 0 0 50px #FFFFFF;
+	opacity: 1;
+}
+.div-3{
+	width: 1000px;
+	height: 223px;
+	margin: 150px  50px 0px;
+	border-radius: 10px;
+	background: #FFFFFF;
+	float: right;
+}
+
+.div-4{
+	width: 300px;
+	height: 300px;
+	background: #FFFFFF;
+	margin-left: 50px;
+	float:left;
+	margin-top: 22px;
+	border-radius: 10px;
+}
+
+.div-5{
+	height: 280px;
+	border-radius: 10px;
+	overflow-y:auto;
+}
+
+.div-5 li{
+	width: 260px;
+	border-radius: 10px;
+	float: left;
+	cursor: pointer;
+}
+.div-6{
+	width: 665px;
+	height: 110px;
+	margin-left: 20px;
+	padding-left: 15px;
+	float:left;
+	margin-top: 22px;
+	border-radius: 10px;
+	display: flex; 
+}
+.div-7{
+	width:110px;
+	height:110px;
+	margin: 0px 10px;
+	margin-left: 20px; 
+	float: left;
+	color:#49C3C5;
+}
+.div-8{
+	
+	width: 680px;
+	height: 167px;
+	margin-left: 20px;
+	float:left;
+	margin-top: 22px;
+	border-top-left-radius:10px;
+	border-top-right-radius:90px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 90px;
+	display: flex; 
+	background: #FFFFFF;
+}
